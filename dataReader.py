@@ -3,6 +3,7 @@ import shutil
 import requests
 import os
 
+#récupération des données
 def download_data():
     csv_url = "https://www.data.gouv.fr/fr/datasets/r/d3a98a30-893f-47f7-96c5-2f4bcaaa0d71"
     local_directory = os.getcwd()
