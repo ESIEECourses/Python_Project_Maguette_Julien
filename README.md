@@ -66,4 +66,5 @@ L'intégration de données supplémentaires et l'exploration d'indicateurs spéc
 
 ## Auteurs
 - Maguette Madiodiou Diagne 
-- Mame Diarra Bousso Diakhaté 
+- Mame Diarra Bousso Diakhaté
+- Julien Archambault
