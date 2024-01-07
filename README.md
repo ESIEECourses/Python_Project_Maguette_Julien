@@ -56,14 +56,17 @@ Cette analyse se concentre sur plusieurs aspects clés, notamment :
 ## Méthodologie
 Les données utilisées dans cette analyse proviennent du fichier CSV disponible sur le site du gouvernement français ([data.gouv.fr](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19/)). Les informations extraites comprennent des détails sur les stocks des doses de vaccins contre la COVID-19 par département, type de vaccin, nombre de doses et date.
 
-"L'analyse des données a été réalisée en utilisant des techniques de traitement de données avec la bibliothèque pandas en Python. Les visualisations graphiques ont été générées par Plotly Express, offrant ainsi une représentation visuelle claire des statistiques de vaccination."
+L'analyse des données a été réalisée en utilisant des techniques de traitement de données avec la bibliothèque pandas en Python. Les visualisations graphiques ont été générées par Plotly Express, offrant ainsi une représentation visuelle claire des statistiques de vaccination.
+
 
 ## Conclusions
-"L'analyse des données relatives aux stocks des doses de vaccins en France met en lumière des insights significatifs sur la distribution et l'administration des vaccins. Des informations détaillées par type de vaccin, département et date permettent de mieux comprendre la dynamique de la vaccination contre la COVID-19."
+Au cours du développement de notre application, en tant que débutants en Python ,Dash et Plotly, nous avons rencontré des défis majeurs, notamment l'apprentissage du langage Python, la compréhension de Dash, et l'intégration d'une carte interactive. Manipuler les données des stocks de vaccins s'est avérée complexe, nécessitant une maîtrise approfondie de pandas. Malgré ces difficultés, nous avons surmonté les obstacles en nous formant en ligne, consultant des ressources communautaires, et en adaptant notre code. Notamment, ce projet nous a permis de pratiquer le "peer programming" avec Diarra les weekends, renforçant ainsi notre collaboration à distance et notre compréhension mutuelle du code. En conclusion, bien que le projet ait présenté des défis, il a constitué une expérience précieuse d'apprentissage continu et de collaboration en équipe, contribuant significativement à notre développement professionnel.
+
 
 ## Perspectives Futures
-"L'intégration de données supplémentaires et l'exploration d'indicateurs spécifiques permettront d'affiner davantage l'analyse. Des mises à jour régulières du tableau de bord permettront de suivre les tendances au fil du temps, facilitant ainsi une adaptation continue des stratégies de vaccination en réponse à l'évolution de la situation."
+L'intégration de données supplémentaires et l'exploration d'indicateurs spécifiques permettront d'affiner davantage l'analyse. Des mises à jour régulières du tableau de bord permettront de suivre les tendances au fil du temps, facilitant ainsi une adaptation continue des stratégies de vaccination en réponse à l'évolution de la situation.
 
 ## Auteurs
 - Maguette Madiodiou Diagne 
 - Mame Diarra Bousso Diakhaté 
+
