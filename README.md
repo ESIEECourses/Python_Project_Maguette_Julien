@@ -1,27 +1,79 @@
 # Dashboard COVID-19
 
-## Description
-Le Dashboard COVID-19 est une application Python utilisant Dash et Plotly pour visualiser les données liées à la pandémie de COVID-19.
+## Introduction
+Bienvenue sur le README de notre Dashboard COVID-19, une application Python conçue pour éclairer sur la situation pandémique du Covid-19 en France.
+
+## Objectif
+L'objectif principal de cette application est de fournir une visualisation claire et interactive des données liées à la pandémie de COVID-19. En utilisant les bibliothèques Dash et Plotly, notre dashboard offre une représentation graphique des statistiques, permettant ainsi une compréhension approfondie de la situation actuelle.
 
 ## Fonctionnalités
-- Affichage des données sous forme de tableau interactif.
-- Visualisation graphique des statistiques de COVID-19 à l'aide d'histogrammes.
+- Affichage interactif des données sous forme de tableau.
+- Visualisation graphique des statistiques de COVID-19 via des histogrammes.
 
 ## Installation
 1. Clonez le dépôt : `git clone https://github.com/ESIEECourses/Python_Project_Maguette_Julien.git`
 2. Accédez au répertoire : `cd Python_Project_Maguette_Julien`
-3. Installez les dépendances : `pip install -r requirements.txt`
+3. Créez et activez un environnement virtuel :
+   - Sur Linux/Mac :
+     ```bash
+     python -m venv venv
+     source venv/bin/activate
+     ```
+   - Sur Windows :
+     ```powershell
+     python -m venv venv
+     .\venv\Scripts\Activate
+     ```
+4. Installez les dépendances : `pip install -r requirements.txt`
 
 ## Utilisation
-1. Activez votre environnement virtuel (si vous en avez un) : `source venv/bin/activate` (Linux/Mac) ou `venv\Scripts\activate` (Windows).
+1. Activez votre environnement virtuel :
+   - Sur Linux/Mac : `source venv/bin/activate`
+   - Sur Windows : `.\venv\Scripts\activate`
 2. Exécutez l'application : `python app.py`
 3. Accédez au tableau de bord en ouvrant votre navigateur et en visitant http://127.0.0.1:8050/.
 
-## Capture d'écran
-![Capture d'écran du Dashboard COVID-19](screenshot.png)
+## Auteurs
+- Maguette Madiodiou Diagne 
+- Mame Diarra Bousso Diakhaté 
 
-## Auteur
-Maguette Diagne 
+# Analyse des Données COVID-19 et Vaccinations
 
-## Licence
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+## Contexte
+Les données utilisées dans cette analyse proviennent du site officiel de la santé publique en France et du gouvernement français. Elles couvrent la période allant du 2 mars 2020 jusqu'à la date la plus récente disponible. L'objectif de cette analyse est de fournir des insights significatifs sur l'évolution de la pandémie de COVID-19 en France, tout en intégrant également les données relatives aux stocks des doses de vaccins et aux vaccinations.
+
+## Objectifs de l'Analyse
+Cette analyse se concentre sur plusieurs aspects clés, notamment :
+
+1. **Évolution du Nombre Total de Cas Confirmés :**
+   - Le nombre total de cas confirmés a augmenté au fil du temps, indiquant la propagation du virus.
+   - Des variations dans les tendances peuvent être observées, soulignant des périodes d'augmentation et de diminution.
+
+2. **Répartition des Décès :**
+   - Les données comprennent le nombre total de décès à l'hôpital et en EHPAD.
+   - Une analyse plus approfondie peut être effectuée pour identifier les régions les plus touchées.
+
+3. **Situation en Réanimation et Hospitalisations :**
+   - Les admissions en réanimation et les hospitalisations sont des indicateurs clés de la gravité de la maladie.
+   - Des fluctuations dans ces chiffres peuvent refléter la pression sur le système de santé.
+
+4. **Nombre Total de Patients Guéris :**
+   - Suivre le nombre total de patients guéris donne un aperçu de la résilience face à la maladie.
+   - Des comparaisons avec le nombre total de cas confirmés permettent d'évaluer l'efficacité des mesures prises.
+
+5. **Données Relatives aux Stocks des Doses de Vaccins et Vaccinations :**
+   - L'analyse inclut les données relatives aux stocks des doses de vaccins contre la COVID-19 et aux vaccinations.
+   - Des informations sur le nombre de doses, le type de vaccin, la date, etc., sont prises en compte.
+
+## Méthodologie
+Les données ont été extraites des fichiers CSV disponibles sur le site du gouvernement français. L'analyse utilise des techniques de traitement de données à l'aide de la bibliothèque pandas en Python, ainsi que des visualisations graphiques générées par Plotly Express.
+
+
+## Conclusions
+L'analyse des données COVID-19 en France souligne la complexité de la situation, avec des variations importantes dans les indicateurs clés. Cette analyse fournit une base pour une compréhension approfondie de l'impact de la pandémie, permettant des actions informées pour la gestion continue de la crise.
+
+## Perspectives Futures
+L'ajout de données supplémentaires et l'exploration d'indicateurs spécifiques permettront d'affiner davantage l'analyse. Des mises à jour régulières de l'analyse permettront de suivre les tendances au fil du temps et d'adapter les stratégies en conséquence.
+
+
+
